@@ -1,0 +1,16 @@
+package Loops;
+
+public class Dowhile {
+
+	public static void main(String[] args) {
+		//print 90 to 11
+		
+		int i=89;
+		do {
+			System.out.println(i);
+			i=i-2;
+		}
+		while(i>=11);
+	}
+
+}
